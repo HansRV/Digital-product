@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>BRAND</title>
+</head>
+<body>
+  
+  <!-- Aquí empieza el navbar -->
+  <nav class="fadeInDown">
+    <div>
+      <img src="images/logo.png" alt="Logo Brand">
+    </div>
+    <div class="nav-options">
+      <ul>
+        <li><a href="#">Faqs</a></li>
+        <li><a href="#">Producto y descripción</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Aquí termina el navbar -->
+
+  <!-- ------------------Inicia el main-section -->
+  <section class="main-section fadeIn">
+    <h1>Este es un producto increíble, no se que haces viendo que lo puedes tener</h1>
+  </section>
+  <section class="products fadeInUp">
+    <div class="product">
+      <div class="content">
+        <div class="img-content">
+          <img src="images/box1.png" alt="caja 1">
+        </div>
+        <h1>Producto 1</h1>
+        <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+        <a href="venta.html">
+          <button class="main-button">Lo quiero</button>
+        </a>
+      </div>
+    </div>
+    <div class="product">
+      <div class="content">
+        <div class="img-content">
+          <img src="images/box2.png" alt="caja 2">
+        </div>
+        <h1>Producto 2</h1>
+        <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+        <a href="venta.html">
+          <button class="main-button">Lo quiero</button>
+        </a>
+      </div>
+    </div>
+  </section>
+<!-- ------------------termina el main-section -->
+
+<!-- --------------------------Inicia benefits -->
+  <section class="benefits">
+    <div class="benefit">
+      <figure>
+        <img width="113px" src="images/b1.png" alt="">
+      </figure>
+      <h3>Los más suavecitos</h2>
+      <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+    </div>
+    
+    <div class="benefit">
+      <figure>
+        <img width="113px" src="images/b2.png" alt="">
+      </figure>
+      <h3>Lo más increible</h2>
+      <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+    </div>
+    
+    <div class="benefit">
+      <figure>
+        <img width="113px" src="images/b3.png" alt="">
+      </figure>
+      <h3>Lo más confiable</h2>
+      <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+    </div>
+  </section>
+<!-- --------------------------termina benefits -->
+
+<!-- ---------------------------Inicia mentions -->
+  <section class="mentions">
+    <h1>Menciones</h1>
+    <div class="mention-wrapper">
+      <div class="mention">
+        <img src="images/p1.png" alt="">  
+          <h2>Mario</h2>
+          <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+        </div>    
+        <div class="mention">
+          <img src="images/p2.png" alt="">
+          <h2>Maria</h2>
+          <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+        </div>    
+        <div class="mention">
+          <img src="images/p3.png" alt="">
+          <h2>Joe</h2>
+          <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+        </div>    
+        <div class="mention">
+          <img src="images/p4.png" alt="">
+          <h2>Jamaica</h2>
+          <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+        </div>    
+    </div>  
+  </section>
+<!-- --------------------------termina mentions -->
+
+<!-- -----------------------------Inicia footer -->
+  <footer class="footer">
+    <a href="#">Términos y condiciones</a>
+    <a href="mailto:contacto@mail.com">contacto@mail.com</a>
+  </footer>
+<!-- ----------------------------termina footer -->
+
+<!-- -----------------------------------script -->
+  <script src="scripts/scrip.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- Action: Este atributo de la etiqueta <form> nos permite establecer el lugar o URL donde los datos de los usuarios deben ser enviados una vez ellos terminen de llenar el formulario.
+  Name: Este atributo de las etiquetas <input> nos permite que los datos que los usuarios hayan escrito se envíen correctamente cuando han terminado de llenar el formulario. El valor de esta etiqueta debe indicar el nombre con el cual queremos almacenar o interactuar con esta información en el futuro.
+  Type: El atributo type=”submit” le permite a los usuarios indicar que han terminado de llenar el formulario y lo pueden enviar para almacenar la información. También podemos usar este atributo en inputs para que estos pasen a tener el rol de botón de envío del formulario.
+  <form action=”URL_DONDE_QUIERO_ENVIAR_LO_DATOS”>
+    <label for=”nombre”>Nombre:</label>
+    <input type=”text” id=”nombre” name=”user_name” />
+  
+    <label for=“edad“>Edad:</label>
+    <input type=”number” id=”edad” name=”user_age” />
+  
+    <button type=”submit”>Enviar mis datos</button>
+  </form> -->
+
+  <!-- Si pruebas este mismo formulario vas a ver que, al enviarlo, la página se dirige a la URL que indicaste en el atributo action de la etiqueta form. Pero es no es todo, fijate bien en la URL y veras que los datos de tus usuarios están escondidos por ahí:
+
+?user_name=JUAN&user_age=123 -->
